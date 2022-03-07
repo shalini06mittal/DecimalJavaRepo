@@ -1,0 +1,38 @@
+package com.demos;
+
+public class BasicConcepts {
+
+	public static void main(String[] args) {
+		/*
+		 * '' "" '''
+		 * '' =>char
+		 * "" => string
+		 * dont have '''
+		 */
+		System.out.println("Hello World");
+		System.out.println("hello"+2);
+		/**
+		 * dynamically typed language
+		 * java, c statically typed language 
+		 * byte
+		 * char
+		 * short
+		 * int
+		 * long
+		 * float
+		 * double
+		 * boolean
+		 */
+		byte b  = 10;
+		char ch = 'a';
+		String name ="shalini";
+		short s = 34;
+		int x = -38;
+		long l = 3435;
+		float f = 3.4f;// adding suffix f is mandatory
+		double d = 234234.234234;
+		boolean choice = true; // false
+		
+	}
+
+}

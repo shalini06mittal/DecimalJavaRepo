@@ -1,0 +1,20 @@
+package com.demos;
+
+public class IfElseSwitchDemo {
+
+	public static void main(String[] args) {
+		/*
+		 * if
+		 * if-else
+		 * if -else-if
+		 * switch-case
+		 */
+		int x = 20;
+		if (x%2==0)
+			System.out.println("even");
+		else
+			System.out.println("odd");
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package com.demos;
+
+public class LoopsDemo {
+
+	public static void main(String[] args) {
+		/**
+		 * for x in []:
+		 * 	
+		 */
+
+		int x =1;
+		while (x<=5)
+		{
+			System.out.println(x*x);
+			x++;
+		}
+		for(int n=1;n<=5;n++ )
+			System.out.println(n*n);
+	}
+
+}

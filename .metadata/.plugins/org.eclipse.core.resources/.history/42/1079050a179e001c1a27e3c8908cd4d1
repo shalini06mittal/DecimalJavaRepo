@@ -1,0 +1,17 @@
+package com.demos;
+
+public class BasicConcepts {
+
+	public static void main(String[] args) {
+		/*
+		 * '' "" '''
+		 * '' =>char
+		 * "" => string
+		 * dont have '''
+		 */
+		System.out.println("Hello World");
+		System.out.println("hello"+2);
+
+	}
+
+}

@@ -1,0 +1,36 @@
+package com.demos;
+
+import java.util.Scanner;
+
+public class LoopsDemo {
+
+	public static void main(String[] args) {
+		/**
+		 * for x in []:
+		 * 	
+		 */
+
+		int x =1;
+		while (x<=5)
+		{
+			System.out.println(x*x);
+			x++;
+		}
+		for(int n=1;n<=5;n++ )
+			 System.out.println(n*n);
+		Scanner sc = new Scanner(System.in);
+		
+		do {
+			System.out.println("Enter a no or -1 to exit");
+			int n = sc.nextInt();
+			if(n==-1)
+			{
+				System.out.println("Thanks ");
+				break;
+			}
+			System.out.println(n+" : "+Math.pow(n, 3));
+			
+		}while(true);
+	}
+
+}
