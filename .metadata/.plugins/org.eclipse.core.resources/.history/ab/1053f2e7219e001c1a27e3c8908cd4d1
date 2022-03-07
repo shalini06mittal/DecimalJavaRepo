@@ -1,0 +1,10 @@
+package oops;
+
+public class BoxTest {
+
+	public static void main(String[] args) {
+		// int = 4 bytes 4*3 = 12
+		Box b1 = new Box();
+	}
+
+}

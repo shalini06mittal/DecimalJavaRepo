@@ -1,0 +1,28 @@
+package oops;
+/**
+ * template
+ * blueprint
+ * structure
+ * user defined datatype => size is defined by the user
+ */
+public class Box {
+
+	// characteristics or attribute or properties or data members
+	// dimensions
+	int width;
+	int height;
+	int length;
+	
+	// parameters to methods and returnn type
+	// member methods
+	public void initialize(int l, int w, int h)
+	{
+		length = l;
+		width = w;
+		height = h;
+	}
+	public void calVolume()
+	{
+		System.out.println(length*width*height);
+	}
+}

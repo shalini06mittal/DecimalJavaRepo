@@ -1,0 +1,10 @@
+package oops;
+
+public class Box {
+
+	// characteristics or attribute or properties
+	// dimensions
+	int width;
+	int height;
+	int length;
+}

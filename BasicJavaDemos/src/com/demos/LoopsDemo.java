@@ -25,9 +25,9 @@ public class LoopsDemo {
 		 * the sum of all the invoices
 		 */
 		for(int n=1;n<=5;n++ )
-			 System.out.println(n*n);
+			System.out.println(n*n);
 		Scanner sc = new Scanner(System.in);
-		
+
 		do {
 			System.out.println("Enter a no or -1 to exit");
 			int n = sc.nextInt();
@@ -37,8 +37,18 @@ public class LoopsDemo {
 				break;
 			}
 			System.out.println(n+" : "+Math.pow(n, 3));
-			
+
 		}while(true);
+
+		
+		int sum=0;
+		for (int i=1;i<6;i++) {
+			System.out.println("ENTER NUMBER : ");
+			int input=sc.nextInt();	
+			sum= sum+input;
+		}
+		System.out.println(sum);
+
 	}
 
 }

@@ -1,0 +1,21 @@
+package com.demos;
+
+public class ArrayDemo {
+
+	public static void main(String[] args) {
+		
+		/**
+		 * c =[] or () or {}
+		 * int a[2]
+		 * 
+		 */
+		// 1) declare
+		int a[];
+		// 2) allocate memory
+		a = new int[5];
+		// CANNOT SAY THIS
+		//int x[5];
+		//a[] = new int[5];
+	}
+
+}

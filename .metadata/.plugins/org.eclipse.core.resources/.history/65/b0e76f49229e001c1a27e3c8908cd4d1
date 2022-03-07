@@ -1,0 +1,15 @@
+package oops;
+
+public class BoxTest {
+
+	public static void main(String[] args) {
+		// int = 4 bytes 4*3 = 12
+		// x is a local variable
+		int x; // x is a avariable of type int, primitive or basic or standard as size is fixed
+		// b1 is a reference/ instance variable of type Box
+		Box b1 = new Box();
+		// use dot operator to access the members
+		b1.width
+	}
+
+}

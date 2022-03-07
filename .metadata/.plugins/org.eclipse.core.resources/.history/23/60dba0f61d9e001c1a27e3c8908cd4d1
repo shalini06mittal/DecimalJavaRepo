@@ -1,0 +1,26 @@
+package com.demos;
+
+public class ArrayDemo {
+
+	public static void main(String[] args) {
+		
+		/**
+		 * c =[] or () or {} len(c)
+		 * int a[2] a.length
+		 * 
+		 */
+		// 1) declare
+		int a[];
+		// 2) allocate memory
+		a = new int[5];
+		System.out.println(a.length);
+		// CANNOT SAY THIS
+		//int x[5];
+		//a[] = new int[5];
+		//3) to initialize values => indexing
+		for (int i = 0; i < a.length; i++) {
+			
+		}
+	}
+
+}

@@ -1,0 +1,12 @@
+package oops;
+
+public class BoxTest {
+
+	public static void main(String[] args) {
+		// int = 4 bytes 4*3 = 12
+		int x; // x is a avariable of type int, primitive or basic or standard as size is fixed
+		// b1 is a reference variable of type Box
+		Box b1 = new Box();
+	}
+
+}
