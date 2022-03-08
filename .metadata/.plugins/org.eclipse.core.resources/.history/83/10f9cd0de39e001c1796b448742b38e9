@@ -1,0 +1,12 @@
+package oops;
+
+public class BoxObjectTest {
+
+	public static void main(String[] args) {
+		
+		BoxObject ob1 = new BoxObject();
+		//ob1.BoxObject();
+		System.out.println(ob1);
+
+	}
+}

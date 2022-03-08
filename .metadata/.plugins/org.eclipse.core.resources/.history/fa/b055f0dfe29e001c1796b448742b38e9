@@ -1,0 +1,10 @@
+package oops;
+
+public class BosObjectTest {
+
+	public static void main(String[] args) {
+		
+		BoxObject ob1 = new BoxObject();
+
+	}
+}

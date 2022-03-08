@@ -1,0 +1,30 @@
+package oops;
+
+public class BoxObjectTest {
+
+	public static void main(int[] args) {
+		System.out.println("main with int");
+		
+	}
+	public static void main(double d1) {
+		System.out.println("main with double");
+		
+	}
+	public static void main(String[] args) {
+		
+		BoxObject ob1 = new BoxObject();
+		//ob1.BoxObject();
+		//oops.BoxObject@5e265ba4
+		//5e265ba4 =>hashcode [alias for mem location]
+		System.out.println(ob1);
+		System.out.println(ob1.calVolume());
+
+		BoxObject ob2 = new BoxObject(3,4,5);
+		System.out.println(ob2.calVolume());
+		
+		System.out.println(2+2);//4
+		System.out.println(2.2+2.2);//4.4
+		System.out.println('a'+'b');//ab
+		System.out.println("hello"+" there");//hello there
+	}
+}
