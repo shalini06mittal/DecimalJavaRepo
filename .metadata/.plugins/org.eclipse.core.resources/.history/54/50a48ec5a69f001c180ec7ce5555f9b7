@@ -1,0 +1,72 @@
+package com.assn;
+
+import java.util.Scanner;
+
+/**
+ * Ticket class => age price , date and time
+ * Customer => name, address
+ * @author Shalini
+ *
+ */
+public class TicketCounter {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		boolean done = false;
+
+		do {
+		    System.out.println("Menu selection");
+		    System.out.println("1. Display Ticket Details");
+		    System.out.println("2. Purchase Ticket");
+		    System.out.println("3. Exit");
+		    System.out.println("Please enter selection");
+
+		    int option = sc.nextInt();
+
+		    switch (option) {
+
+		        case 1:
+		            System.out.println("Age \t\tPrice");
+		            System.out.println("Below 5 \tFree");
+		            System.out.println("Age 5 to 15\t 100");
+		            System.out.println("Age 15 \t150");
+		            break;
+
+		        case 2:
+		        	System.out.println("how many tickets");
+		        	int nooftickets = sc.nextInt();
+		        	int priceToPay = 0;
+		        	
+		        	for(int i=1;i<=nooftickets;i++) {
+			        	System.out.println("Please enter customer name:");
+			            String customerName = sc.next();
+			            System.out.println("Please enter customer age");
+			            int customerAge = sc.nextInt();
+	
+			            
+			            if (customerAge > 5 && customerAge <=15) {
+			                priceToPay += 100;
+			            }
+			            else if (customerAge > 15) {
+			                priceToPay = 150;
+			            }
+			            System.out.println("Total price :" + priceToPay);
+		        	}
+		            break;
+
+		        case 3:
+		            System.out.println("Exiting the program");
+		            done = true;
+		            break;
+
+		        default:
+		            System.out.println("Invalid selection, please try again!");
+		            break;
+		    }
+		} while (!done);
+
+
+	}
+
+}
